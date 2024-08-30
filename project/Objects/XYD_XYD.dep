@@ -1,0 +1,110 @@
+Dependencies for Project 'XYD', Target 'XYD': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\startup\startup_stm32f40_41xxx.s)(0x66C700DE)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_XYD-ID:\32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\32\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (..\cmsis\system_stm32f4xx.c)(0x62051C84)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\cmsis\Include -I ..\user -I ..\api-I.\RTE\_XYD-ID:\32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\32\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DSTM32F40_41xxx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (..\cmsis\stm32f4xx.h)(0x66B57998)
+I (..\cmsis\Include\core_cm4.h)(0x66BDAA84)
+I (D:\32\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\cmsis\Include\core_cmInstr.h)(0x61F12858)
+I (..\cmsis\Include\core_cmFunc.h)(0x61F12858)
+I (..\cmsis\Include\core_cmSimd.h)(0x61F12858)
+I (..\cmsis\system_stm32f4xx.h)(0x62051C86)
+F (..\user\main.c)(0x66C81996)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\cmsis\Include -I ..\user -I ..\api-I.\RTE\_XYD-ID:\32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\32\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\user\main.h)(0x66C5991A)
+I (..\cmsis\stm32f4xx.h)(0x66B57998)
+I (..\cmsis\Include\core_cm4.h)(0x66BDAA84)
+I (D:\32\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\cmsis\Include\core_cmInstr.h)(0x61F12858)
+I (..\cmsis\Include\core_cmFunc.h)(0x61F12858)
+I (..\cmsis\Include\core_cmSimd.h)(0x61F12858)
+I (..\cmsis\system_stm32f4xx.h)(0x62051C86)
+I (..\user\stm32f4xx_it.h)(0x66C6D356)
+I (..\api\led.h)(0x66BC5DBA)
+I (..\api\key.h)(0x66BD59EC)
+I (D:\32\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\api\delay.h)(0x66C815A9)
+I (..\user\usart.h)(0x66C5978E)
+I (D:\32\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (..\user\config.h)(0x66C599D4)
+F (..\user\stm32f4xx_it.c)(0x66C6D356)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\cmsis\Include -I ..\user -I ..\api-I.\RTE\_XYD-ID:\32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\32\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DSTM32F40_41xxx-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+I (..\user\stm32f4xx_it.h)(0x66C6D356)
+I (..\user\main.h)(0x66C5991A)
+I (..\cmsis\stm32f4xx.h)(0x66B57998)
+I (..\cmsis\Include\core_cm4.h)(0x66BDAA84)
+I (D:\32\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\cmsis\Include\core_cmInstr.h)(0x61F12858)
+I (..\cmsis\Include\core_cmFunc.h)(0x61F12858)
+I (..\cmsis\Include\core_cmSimd.h)(0x61F12858)
+I (..\cmsis\system_stm32f4xx.h)(0x62051C86)
+I (..\api\led.h)(0x66BC5DBA)
+I (..\api\key.h)(0x66BD59EC)
+I (D:\32\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\api\delay.h)(0x66C815A9)
+I (..\user\usart.h)(0x66C5978E)
+I (D:\32\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (..\user\config.h)(0x66C599D4)
+F (..\user\config.c)(0x66C6FF98)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\cmsis\Include -I ..\user -I ..\api-I.\RTE\_XYD-ID:\32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\32\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DSTM32F40_41xxx-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
+I (..\user\config.h)(0x66C599D4)
+I (..\user\main.h)(0x66C5991A)
+I (..\cmsis\stm32f4xx.h)(0x66B57998)
+I (..\cmsis\Include\core_cm4.h)(0x66BDAA84)
+I (D:\32\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\cmsis\Include\core_cmInstr.h)(0x61F12858)
+I (..\cmsis\Include\core_cmFunc.h)(0x61F12858)
+I (..\cmsis\Include\core_cmSimd.h)(0x61F12858)
+I (..\cmsis\system_stm32f4xx.h)(0x62051C86)
+I (..\user\stm32f4xx_it.h)(0x66C6D356)
+I (..\api\led.h)(0x66BC5DBA)
+I (..\api\key.h)(0x66BD59EC)
+I (D:\32\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\api\delay.h)(0x66C815A9)
+I (..\user\usart.h)(0x66C5978E)
+I (D:\32\ARM\ARMCC\include\string.h)(0x5E53505C)
+F (..\api\delay.c)(0x66C815A9)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\cmsis\Include -I ..\user -I ..\api-I.\RTE\_XYD-ID:\32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\32\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DSTM32F40_41xxx-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\api\delay.h)(0x66C815A9)
+I (..\cmsis\stm32f4xx.h)(0x66B57998)
+I (..\cmsis\Include\core_cm4.h)(0x66BDAA84)
+I (D:\32\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\cmsis\Include\core_cmInstr.h)(0x61F12858)
+I (..\cmsis\Include\core_cmFunc.h)(0x61F12858)
+I (..\cmsis\Include\core_cmSimd.h)(0x61F12858)
+I (..\cmsis\system_stm32f4xx.h)(0x62051C86)
+F (..\api\key.c)(0x66C5AFC4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\cmsis\Include -I ..\user -I ..\api-I.\RTE\_XYD-ID:\32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\32\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DSTM32F40_41xxx-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\api\key.h)(0x66BD59EC)
+I (..\cmsis\stm32f4xx.h)(0x66B57998)
+I (..\cmsis\Include\core_cm4.h)(0x66BDAA84)
+I (D:\32\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\cmsis\Include\core_cmInstr.h)(0x61F12858)
+I (..\cmsis\Include\core_cmFunc.h)(0x61F12858)
+I (..\cmsis\Include\core_cmSimd.h)(0x61F12858)
+I (..\cmsis\system_stm32f4xx.h)(0x62051C86)
+I (D:\32\ARM\ARMCC\include\stdarg.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\api\led.c)(0x66BEBBD0)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\cmsis\Include -I ..\user -I ..\api-I.\RTE\_XYD-ID:\32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\32\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DSTM32F40_41xxx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\api\led.h)(0x66BC5DBA)
+I (..\cmsis\stm32f4xx.h)(0x66B57998)
+I (..\cmsis\Include\core_cm4.h)(0x66BDAA84)
+I (D:\32\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\cmsis\Include\core_cmInstr.h)(0x61F12858)
+I (..\cmsis\Include\core_cmFunc.h)(0x61F12858)
+I (..\cmsis\Include\core_cmSimd.h)(0x61F12858)
+I (..\cmsis\system_stm32f4xx.h)(0x62051C86)
+F (..\user\usart.c)(0x66C5B628)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\cmsis\Include -I ..\user -I ..\api-I.\RTE\_XYD-ID:\32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\32\Arm\Packs\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_ -DSTM32F40_41xxx-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\user\usart.h)(0x66C5978E)
+I (..\cmsis\stm32f4xx.h)(0x66B57998)
+I (..\cmsis\Include\core_cm4.h)(0x66BDAA84)
+I (D:\32\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (..\cmsis\Include\core_cmInstr.h)(0x61F12858)
+I (..\cmsis\Include\core_cmFunc.h)(0x61F12858)
+I (..\cmsis\Include\core_cmSimd.h)(0x61F12858)
+I (..\cmsis\system_stm32f4xx.h)(0x62051C86)
+I (D:\32\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\32\ARM\ARMCC\include\stdlib.h)(0x5E53505C)

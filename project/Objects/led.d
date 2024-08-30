@@ -1,0 +1,9 @@
+.\objects\led.o: ..\api\led.c
+.\objects\led.o: ..\api\led.h
+.\objects\led.o: ..\cmsis\stm32f4xx.h
+.\objects\led.o: ..\cmsis\Include\core_cm4.h
+.\objects\led.o: D:\32\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: ..\cmsis\Include\core_cmInstr.h
+.\objects\led.o: ..\cmsis\Include\core_cmFunc.h
+.\objects\led.o: ..\cmsis\Include\core_cmSimd.h
+.\objects\led.o: ..\cmsis\system_stm32f4xx.h

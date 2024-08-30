@@ -1,0 +1,9 @@
+.\objects\delay.o: ..\api\delay.c
+.\objects\delay.o: ..\api\delay.h
+.\objects\delay.o: ..\cmsis\stm32f4xx.h
+.\objects\delay.o: ..\cmsis\Include\core_cm4.h
+.\objects\delay.o: D:\32\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: ..\cmsis\Include\core_cmInstr.h
+.\objects\delay.o: ..\cmsis\Include\core_cmFunc.h
+.\objects\delay.o: ..\cmsis\Include\core_cmSimd.h
+.\objects\delay.o: ..\cmsis\system_stm32f4xx.h

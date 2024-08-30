@@ -1,0 +1,9 @@
+.\objects\rcc.o: ..\user\RCC.c
+.\objects\rcc.o: ..\user\RCC.h
+.\objects\rcc.o: ..\cmsis\stm32f4xx.h
+.\objects\rcc.o: ..\cmsis\Include\core_cm4.h
+.\objects\rcc.o: C:\_programming\KEIL5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rcc.o: ..\cmsis\Include\core_cmInstr.h
+.\objects\rcc.o: ..\cmsis\Include\core_cmFunc.h
+.\objects\rcc.o: ..\cmsis\Include\core_cmSimd.h
+.\objects\rcc.o: ..\cmsis\system_stm32f4xx.h
